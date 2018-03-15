@@ -1,0 +1,37 @@
+
+/*-- Navbar for Homepage --*/
+/*#tpl_navbar .btn-link-icon > i.fa { font-size:1.8em;color:#fff;text-shadow:0px 1px 2px #333; }
+#tpl_navbar.sticky-active  .btn-link-icon > i.fa { color:#3b5998;text-shadow:none; }*/
+
+
+/*-- Slideshow --*/
+#homepage_slideshow { display:block;width:100%;overflow:hidden;margin:0px;height:480px !important; }
+#homepage_slideshow .carousel-control { border-radius: 0 !important; }
+#homepage_slideshow .carousel-item { height:480px !important;border-radius:0 !important;background-repeat:no-repeat !important;background-position:center !important;background-size: cover !important;overflow:hidden !important; }
+#homepage_slideshow .carousel-caption { font-size:1.8em;color:#fff;text-decoration:none; }
+
+
+/*-- Last shop --*/
+#homepage_last_shop { margin:30px 20px;min-height: 184px; }
+#homepage_last_shop div.shls-box { padding:10px !important; }
+#homepage_last_shop div.shls-box a { text-decoration: none; }
+#homepage_last_shop div.shls-box img { margin:auto;max-height:120px; }
+#homepage_last_shop div.shls-box h4 { margin:4px 0px;font-size:1.1em;height:16px;text-decoration:none;text-align:center;overflow:hidden; }
+
+
+/*-- Screen : XS & SM --*/
+@media screen and (max-width: 767px) {
+
+    /*-- Slideshow --*/
+    #homepage_slideshow { height:240px !important; }
+    #homepage_slideshow .carousel-item { height:240px !important; }
+    #homepage_slideshow .carousel-caption { font-size:1.2em; }
+}
+
+/*-- Screen : XL --*/
+@media screen and (min-width: 1199px) {
+
+    /*-- Slideshow --*/
+    #homepage_slideshow { height:620px !important; }
+    #homepage_slideshow .carousel-item { height:620px !important; }
+}

@@ -1,0 +1,38 @@
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+    RewriteEngine On
+    RewriteBase /
+
+    #-- Redirect to https
+    RewriteCond %{HTTPS} off
+    RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+    #-- Force use www
+    RewriteCond %{HTTP_HOST} !^$
+    RewriteCond %{HTTP_HOST} !^www\. [NC]
+    RewriteCond %{HTTPS}s ^on(s)|
+    RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+    RewriteCond %{REQUEST_URI} !\.(?:css|js|jpe?g|gif|png|ttf|otf|woff|woff2|svg|php)$ [NC]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    #RewriteRule ^(.*)$ index.php/$1 [L]
+
+    RewriteRule ^api/(.*)$ api.php/$1 [L]
+    RewriteRule ^api/(.*)/$ api.php/$1 [L]
+
+    RewriteRule ^food/(.*)$ index.php/food/$1 [L]
+    RewriteRule ^food/(.*)/$ index.php/food/$1 [L]
+</IfModule> 
+
+# One year for image files
+<filesMatch ".(jpg|jpeg|png|gif|ico)$">
+Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+
+# One month for css and js
+<filesMatch ".(css|js)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>

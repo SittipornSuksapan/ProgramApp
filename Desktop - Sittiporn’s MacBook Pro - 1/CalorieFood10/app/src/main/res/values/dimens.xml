@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="tab_space_top">4dp</dimen>
+    <dimen name="tab_space">0dp</dimen>
+    <dimen name="tab_space_plus1">3dp</dimen>
+    <dimen name="tab_space_bottom_line">36sp</dimen>
+    <dimen name="tab_space_unselected_top">6sp</dimen>
+
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="global_padding">1dp</dimen>
+    <dimen name="global_margin">2dp</dimen>
+    <dimen name="global_half_margin">4dp</dimen>
+    <dimen name="global_text_size">16sp</dimen>
+    <dimen name="global_small_text_size">10sp</dimen>
+    <dimen name="global_round_corner">10dp</dimen>
+
+    <!-- Phone Layout -->
+    <dimen name="sample_2_layout_1_height">145dp</dimen>
+    <dimen name="sample_2_layout_2_height">48dp</dimen>
+
+    <!-- Sample 1 Layout -->
+    <dimen name="sample_1_layout_1_height">120dp</dimen>
+    <dimen name="sample_1_layout_2_height">80dp</dimen>
+</resources>

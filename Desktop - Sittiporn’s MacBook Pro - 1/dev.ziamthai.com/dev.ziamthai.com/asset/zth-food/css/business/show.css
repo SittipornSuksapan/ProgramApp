@@ -1,0 +1,73 @@
+
+.icon-menu-cart-count { display:none;position:absolute;top:-4px;right:-4px;background:#f00;color:#fff;font-size:0.7em;font-weight:bold;padding:4px 8px;border-radius:32px;text-align:center; }
+
+.headline-shop-logo { width:100%;height:auto; }
+.headline-shop-name { margin:0;padding:10px;font-size:1.3em;font-weight:bold;text-align:center; }
+.headline-shop-rating { padding:10px;padding-top:0;color:#f90; }
+
+#store_show_sidebar.is_stuck { z-index:900; }
+
+#store_show_header_xs { text-align: center;padding:10px; }
+#store_show_header_xs.is_stuck { z-index:900;background-color:#efefef;border-bottom:solid 1px #ccc; }
+
+#store_show_cover_navbar { margin-top:10px; }
+#store_show_cover_navbar .btn-group .btn.active { color:#444 !important; }
+
+.store_show_hour_indicator { border-radius:4px !important;background:rgba(0,0,0,0.6) !important;color:#fff !important;text-shadow:0px 1px 1px #000 !important; }
+.store_show_hour_status { padding:2px 4px;border-radius:4px;background: rgba(0,0,0,0.6); }
+.store_show_hour_status .display_status { padding-left:4px;padding-right:4px;color:#fff;text-decoration:none;text-shadow:-1px 1px 2px #000; }
+.store_show_hour_status .display_time { padding-left:8px;padding-right:8px;font-weight:bold;border-width:2px;background-color:#fff;background-color: #fff; }
+
+.store-show-imghead { position:relative;padding:0;height:360px;background-repeat:no-repeat;background-size:cover;background-position:center;border-radius: 0px; }
+.store-show-todayhour { position:absolute;top:5px;right:5px; }
+.store-show-fblike { position:absolute;bottom:5px;left:5px;overflow:hidden; }
+
+.sidebar-shop-menu { margin-top:-15px; }
+.sidebar-shop-menu > .btn { text-align:left; }
+.sidebar-shop-menu > .btn.active { font-size:1.2em;font-weight:bold;color:#3b5998;background-color:#fff;border-left:solid 4px;border-right:solid 4px;border-color:#3b5998; }
+
+.sidebar-shop-contact { margin-top:0px; }
+.sidebar-shop-contact .btn-link { display:block;text-align:left;color:#666;text-decoration:none;vertical-align: top;max-width:100%;white-space: normal;overflow-wrap:break-word; }
+.sidebar-shop-contact .btn-link:hover { color:#3b5998; }
+
+
+.form-review-userimg { display:block;position:absolute;top:0px;right:0px;width:64px;height:64px;background:#fff;border:solid 1px #ccc;border-radius:0px 6px 0px 6px;overflow:hidden; }
+.form-review-userimg > img { width:100%;height:auto; }
+.form-review-username { display:block;position:absolute;top:-20px;right:0px;width:40%;text-align:right;font-size:0.8em;color:#666; }
+.form-review-close { display:block;position:absolute;top:-20px;left:0px;width:40%;text-align:left;font-size:0.8em;color:#666; }
+
+.form-review-title { z-index:0;margin-bottom:-1px;border-radius: 6px 6px 0px 0px;border-bottom:none;padding-right:70px; }
+.form-review-desc { z-index:1;border-radius: 0px;border-top:dashed 1px #cecece;border-bottom:none;min-height:80px;padding-right:70px;resize:none;overflow: hidden; }
+
+.form-review-actbar { padding:5px;border:solid 1px #ccc;border-radius: 0px 0px 6px 6px; }
+.form-review-actbar .btn-group > .btn-link { padding:2px 6px;color:#666;text-decoration:none; }
+.form-review-actbar .btn-group > .btn-link:hover { color:#222; }
+
+#store_work_hours_list ul { margin:0;padding:0;list-style:none; }
+#store_work_hours_list ul > li { display:block;height:20px;padding:2px 6px;font-size:0.8em;color:#333; }
+#store_work_hours_list ul > li > strong { display:inline-block;vertical-align:middle;width:36px;overflow:hidden; }
+#store_work_hours_list ul > li > label { display:inline-block;vertical-align:middle;padding-top:8px; }
+#store_work_hours_list ul > li.time-active { font-weight:bold; }
+#store_work_hours_list ul > li.time-only { padding-top:0px !important; }
+
+#store_show_photo_content .mkt-image-item { margin-bottom:20px;text-align:center; }
+#store_show_photo_content .mkt-image-item img { box-shadow:-1px 1px 2px #000; }
+
+/*-- Screen : XS & SM --*/
+@media screen and (max-width: 767px) {
+    .store-show-imghead { height:170px !important; }
+
+    #store_warning_modal .store-show-imghead { height:240px !important; }
+
+    #show_review_content { font-size:0.8em; }
+}
+
+/*-- Screen : MD --*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .store-show-imghead { height:220px !important; }
+}
+
+/*-- Screen : LG --*/
+@media screen and (max-width: 1199px) {
+    .store-show-imghead { height:320px; }
+}

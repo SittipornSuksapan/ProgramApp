@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:background="#ffffff"
+    android:padding="0dp"
+    >
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+        card_view:cardBackgroundColor="#FFFFFF"
+
+        card_view:cardUseCompatPadding="true"
+        >
+        <RelativeLayout
+            android:id="@+id/relativeLayoutthumbnail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+
+            android:layout_centerHorizontal="true">
+
+
+            <LinearLayout
+                android:id="@+id/thumbnail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+               >
+
+                <ImageView
+                    android:id="@+id/list_image"
+                    android:layout_width="35dip"
+                    android:layout_height="35dip"
+                    android:layout_gravity="center" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/artistsss"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/imageView1"
+                            android:layout_alignTop="@+id/thumbnail"
+                            android:layout_toRightOf="@+id/thumbnail"
+                            android:ellipsize="marquee"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"
+                            android:singleLine="true"
+                            android:text="Lodge Royal Suite "
+                            android:textColor="#696969"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/thumbnail"
+                            android:layout_toLeftOf="@+id/imageView1"
+                            android:layout_toRightOf="@+id/thumbnail"
+                            android:layout_marginLeft="4dp"
+                            android:ellipsize="marquee"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"
+                            android:singleLine="true"
+                            android:text="1 night from"
+                            android:textColor="#696969"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/imageView1"
+                        android:layout_toRightOf="@+id/thumbnail"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:text="Detail ..."
+                        android:textColor="#696969"
+                        android:textSize="12dp"
+                        android:typeface="serif" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

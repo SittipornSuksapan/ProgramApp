@@ -1,0 +1,10 @@
+
+.video-player { z-index:0;position:relative;display:block; }
+.video-player > .video-embed { z-index:1;display:block;width:100%;background-color:#000; }
+
+.video-player > .video-controls > * { box-sizing: border-box; }
+.video-player > .video-controls > .play-pause { z-index:3;position:absolute;left:50%;top:50%;margin-left:-32px;margin-top:-32px;width:64px;height:64px;text-align:center;font-size:32px !important;padding:16px;line-height:32px;border-radius:16px;color:#eee;background-color:rgba(0,0,0,0.4);font-weight: lighter; }
+.video-player > .video-controls > .fullscreen { z-index:3;position:absolute;right:4%;top:4%;text-align:center;font-size:24px;padding:8px;line-height:24px;border-radius:8px;color:#eee;background-color:rgba(0,0,0,0.4); }
+
+.video-player > .video-controls > .play-pause:hover { color:#fff;text-shadow:1px 1px 3px #000;background-color:rgba(0,0,0,0.8); }
+.video-player > .video-controls > .fullscreen:hover { color:#fff;text-shadow:1px 1px 3px #000;background-color:rgba(0,0,0,0.8); }

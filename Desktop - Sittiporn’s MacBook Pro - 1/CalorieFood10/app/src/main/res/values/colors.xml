@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CB3ED</color>
+    <color name="colorPrimaryDark">#4CB3ED</color>
+    <color name="colorAccent">#4CB3ED</color>
+
+    <color name="colorLabel">#979797</color>
+    <color name="colorLabel2">#dddddd</color>
+
+    <color name="colorLabelAlpha">#55979797</color>
+    <color name="colorbgNomal">#ecf0f1</color>
+
+
+    <color name="color_turquoise">#1abc9c</color>
+    <color name="color_green_sea">#16a085</color>
+    <color name="color_emerald">#2ecc71</color>
+    <color name="color_nephritis">#27ae60</color>
+    <color name="color_peter_river">#0094E3</color>
+    <color name="color_peter_river2">#4CB3ED</color>
+    <color name="color_blue">#071776</color>
+    <color name="color_blue_in">#050f4b</color>
+
+
+    <color name="color_belize_hole">#2980b9</color>
+    <color name="color_amethyst">#9b59b6</color>
+    <color name="color_wisteria">#8e44ad</color>
+    <color name="color_wet_asphalt2">#ff52738d</color>
+    <color name="color_wet_asphalt">#34495e</color>
+    <color name="color_wet_asphalt_alpha">#550094E3</color>
+    <color name="color_peter_river_alpha">#553498db</color>
+
+    <color name="color_midnight_blue">#2c3e50</color>
+    <color name="color_sun_flower">#fafadc</color>
+    <color name="color_orange">#f39c12</color>
+    <color name="color_carrot">#e67e22</color>
+    <color name="color_pumpkin">#FF4B00</color>
+    <color name="color_alizarin">#e74c3c</color>
+    <color name="color_pomegranate">#c0392b</color>
+    <color name="color_clouds">#ecf0f1</color>
+    <color name="color_silver">#bdc3c7</color>
+    <color name="color_silver2">#d6d7da</color>
+    <color name="color_concrete">#95a5a6</color>
+    <color name="color_asbestos">#7f8c8d</color>
+    <color name="color_asbestos_alpha">#77000000</color>
+    <color name="color_status">#7D7D7D</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_white_alpha">#ddffffff</color>
+
+    <color name="color_black">#000000</color>
+    <color name="color_black_alpha">#99000000</color>
+
+    <color name="color_facebook">#155393</color>
+    <color name="color_googleplus">#FD0010</color>
+    <color name="color_alpha">#00FD0010</color>
+    <color name="color_gray">#47484A</color>
+    <color name="color_gray2">#B5B5B5</color>
+    <color name="color_gray3">#848484</color>
+
+    <color name="color_green">#00CF2E</color>
+    <color name="color_green2">#00CF2E</color>
+    <color name="color_green_alpha">#7700CF2E</color>
+    <color name="color_bg">#ebf0f1</color>
+
+    <color name="hight_light_press">#86c6c6c6</color>
+    <color name="clear">#00000000</color>
+    <color name="color_text_menu">#191919</color>
+    <color name="white">#ffffff</color>
+    <color name="textDateEventList">#1aabff</color>
+    <color name="textEvetNameEventList">#181818</color>
+    <color name="textLocationEventList">#262626</color>
+    <color name="lineEventList">#d6d6d6</color>
+
+    <color name="color_pink">#FFF594D0</color>
+
+    <integer-array name="progress_colors">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorAccent</item>
+    </integer-array>
+
+    <color name="btnOrangCorner">#fc7900</color>
+    <color name="btnOrangCornerActive">#934700</color>
+
+    <color name="sunday">#e74c3c</color>
+    <color name="monday">#f1c40f</color>
+    <color name="tuesday">#f62459</color>
+    <color name="wednesday">#2ecc71</color>
+    <color name="thursday">#e67e22</color>
+    <color name="friday">#3498db</color>
+    <color name="saturday">#9b59b6</color>
+    <color name="defaultday">#848484</color>
+    <color name="button_press">#64d3fc</color>
+    <color name="grey_light">#cacaca</color>
+    <color name="red">#fe0000</color>
+    <color name="button_press_yellow">#00FFFF</color>
+    <color name="grey_lightt">#808080</color>
+    <color name="blue_light">#00aeef</color><!-- 0776ff -->
+    <color name="green">#429e47</color>
+    <color name="orange">#ff9c00</color>
+    <color name="gray_dark">#a1a3a4</color>
+
+    <color name="tabMedium">#2B2B2B</color>
+    <color name="tabDark">#000000</color>
+    <color name="tabTransparent">#10ffffff</color>
+
+
+    <color name="color_dark_pink">#c42c54</color>
+    <color name="color_light_gray">#d1d2d4</color>
+    <color name="color_little_gray">#e6e7e8</color>
+    <color name="color_dark_transparent">#37000000</color>
+
+    <color name="color_text_normal">#ffffff</color>
+    <color name="color_text_pressed">#070707</color>
+
+</resources>

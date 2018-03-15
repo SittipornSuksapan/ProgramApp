@@ -1,0 +1,50 @@
+
+
+#homepage_loading { padding:15px;margin:15px;text-align:center;color:#3b5998; }
+
+
+/*-- Restaurant Finder selector --*/
+#homepage_store_cate { margin-top:5px;text-align: center; }
+#homepage_store_cate > .row { padding-left:5px;padding-right:5px; }
+#homepage_store_cate .item { padding:0px; }
+#homepage_store_cate .item > .photo { display:block;margin:5px;cursor:pointer; }
+#homepage_store_cate .item > .photo > img { max-width:80%;opacity: 1;-webkit-transition: 0.3s; -o-transition: 0.3s; transition: 0.3s; }
+#homepage_store_cate .item:hover > .photo > img { opacity: 0.8; }
+
+
+/*-- Slideshow --*/
+#homepage_slideshow { display:block;width:100%;overflow:hidden;margin:0px;margin-bottom:30px;height:400px !important; }
+#homepage_slideshow .carousel-control { border-radius: 0 !important; }
+#homepage_slideshow .carousel-item { height:400px !important;border-radius:0 !important;background-repeat:no-repeat !important;background-position:center !important;background-size: cover !important;overflow:hidden !important; }
+#homepage_slideshow .carousel-caption { font-size:3.2em;text-decoration:none;color:#fff;text-shadow:-2px 6px 4px #000; }
+
+
+/*-- Last shop --*/
+#homepage_newrelease { display:none; }
+#homepage_newrelease_content { box-shadow: 0px 0px 16px #666; }
+#homepage_newrelease_content div.shls-box { position:relative; }
+#homepage_newrelease_content div.shls-box .photo { display:block;text-decoration:none;height:360px;overflow:hidden;background-repeat:no-repeat !important;background-position:center !important;background-size: cover !important; }
+#homepage_newrelease_content div.shls-box .title { position:absolute;bottom:30px;width:100%;text-align:center;font-size:1.6em;height:32px;text-decoration:none;text-align:center;overflow:hidden;color:#fff;text-shadow:-2px 6px 4px #000; }
+
+
+/*-- Last Review --*/
+#homepage_lastreview { display:none; }
+
+/*-- Screen : XS & SM --*/
+@media screen and (max-width: 767px) {
+    #homepage_newrelease_content .slick-prev { z-index:1000;left: 10px !important; }
+    #homepage_newrelease_content .slick-next { z-index:1000;right: 10px !important; }
+    #homepage_newrelease_content div.shls-box .photo { height: 200px; }
+
+    /*-- Slideshow --*/
+    #homepage_slideshow { margin-bottom:0px;height:260px !important; }
+    #homepage_slideshow .carousel-item { height:260px !important; }
+    #homepage_slideshow .carousel-caption { font-size:2em; }
+}
+
+/*-- Screen : XL --*/
+@media screen and (min-width: 1199px) {
+    /*-- Slideshow --*/
+    #homepage_slideshow { height:400px !important; }
+    #homepage_slideshow .carousel-item { height:400px !important; }
+}

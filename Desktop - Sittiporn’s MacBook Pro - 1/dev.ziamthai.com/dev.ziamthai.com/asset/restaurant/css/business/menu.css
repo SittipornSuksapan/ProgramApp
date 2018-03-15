@@ -1,0 +1,24 @@
+
+#store_menu_cate_list .btn { text-align:left; }
+#store_menu_cate_list .btn.bg-pink { font-weight:bold;color:#fff !important; }
+
+.foods-menu-item-list { margin-bottom:20px; }
+.foods-menu-item-list .photo { box-shadow:0px 1px 3px #444;cursor:pointer; }
+.foods-menu-item-list .headline { margin:0;margin-bottom:10px;width:100%;height:22px;overflow:hidden;color:#333;font-size:1.2em;cursor:pointer; }
+.foods-menu-item-list .description { margin-bottom:10px;font-size:0.9em;width:100%;max-height:60px;overflow:hidden; }
+.foods-menu-item-list .btn-price { background: #fff !important;color:#0275d8 !important; }
+
+.foods-menu-item-list:hover .photo { opacity: 0.8; }
+.foods-menu-item-list:hover .headline { color:#000;text-shadow:-1px 1px 1px #888; }
+
+/*-- Screen : XS & SM --*/
+@media screen and (max-width: 767px) {
+    .foods-menu-item-list .headline { font-size:1.1em; }
+}
+
+/*-- Screen : MD --*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .foods-menu-item-list .headline { font-size:1em; }
+    
+    .store_show_hour_status { padding-bottom:5px; }
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg7"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="ค้นหาเมนูอาหาร"
+        android:textColor="#FFFFFF"
+        android:drawableLeft="@mipmap/ic_launcher_search">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+
+            android:drawableLeft="@mipmap/ic_launcher_search"
+            android:ems="10"
+            android:textColorHint="#FFFFFF"
+            android:hint="ค้นหาเมนูอาหาร"
+            android:textColor="#FFFFFF">
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <ImageView
+            android:id="@+id/imgaddmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/add"
+            android:background="@drawable/add"/>
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/ListView01"
+        android:layout_width="fill_parent"
+        android:layout_height="142dp"
+        android:layout_marginTop="2dp"
+        android:padding="0dp"
+        android:layout_weight="0.52">
+    </ListView>
+</LinearLayout>

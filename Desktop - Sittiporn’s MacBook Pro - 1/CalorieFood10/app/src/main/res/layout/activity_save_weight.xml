@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ard_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_save_weight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_text_head"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/monday">
+
+       <!-- <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/item_head">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight_Today"
+                android:textSize="16dp"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+        </FrameLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="16dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/imageViewEmail"
+                    android:padding="4dp"
+                    android:src="@drawable/name"
+                    android:layout_gravity="center"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:inputType="phone"
+                    android:ems="10"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginLeft="8dp"
+                    android:maxLines="1"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:background="@drawable/item_edittext"
+                    android:id="@+id/etWeight"
+                    android:paddingLeft="8dp"
+                    android:hint="@string/weight"/>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/save"
+                android:id="@+id/btSave"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/color_white"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:background="@drawable/custom_btn_green"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        </LinearLayout>
+
+  </LinearLayout>
+     <!-- </LinearLayout>-->
+</RelativeLayout>

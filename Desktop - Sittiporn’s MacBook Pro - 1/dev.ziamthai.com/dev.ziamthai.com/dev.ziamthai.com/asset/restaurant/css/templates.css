@@ -1,0 +1,247 @@
+
+@font-face {
+    font-family: CSPRAKAS;
+    src: url(../fonts/CS_PraKas/CSPraKas.otf);
+}
+
+@font-face {
+    font-family: THA0037;
+    src: url(../fonts/THA0037.TTF);
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 1em;
+
+    color: #424242;
+    background-color: #efefef;
+}
+
+a { color: #1374b6; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; }
+a:hover, a:active, a:focus { color: #e84e81; cursor: pointer; }
+
+/*-- bootstrap modal button close --*/
+.modal .modal-header { position:relative; }
+.modal .modal-header > .close { z-index:1000;position:absolute;right:16px;top:16px; }
+
+/*-- bg color and button color --*/
+.bg-primary { background-color: #1374b6 !important; }
+.btn-primary { background-color: #1374b6 !important; }
+
+.bg-gray { background-color: #d7d7d7 !important; }
+.btn.bg-gray:hover { background-color: #eaeaea !important; }
+
+.bg-pink { background-color: #e84e81 !important; }
+.btn.bg-pink:hover { background-color: #e84e81 !important; }
+
+.text-gray { color:#888 !important; }
+.btn .text-gray:hover,
+a.text-gray:hover { color:#444 !important; }
+
+.text-pink { color:#e84e81 !important; }
+.text-blue { color:#1374b6 !important; }
+
+.white-box {
+    padding:10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px #aaa;
+}
+
+/*-- bootstrap button group justify --*/
+.btn-group-justified { display: table; width: 100%; table-layout: fixed; border-collapse: separate; }
+.btn-group-justified .btn,
+.btn-group-justified .btn-group { float: none;display: table-cell;width: 1%; }
+.btn-group-justified .btn .btn,
+.btn-group-justified .btn-group .btn,
+.btn-group-justified .btn-toolbar { width: 100%; }
+.btn-group-justified .btn .dropdown-menu,
+.btn-group-justified .btn-group .dropdown-menu { left: auto; }
+
+/*-- Templates --*/
+#tpl_navbar {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+
+    padding-top:5px;
+    padding-bottom:5px;
+
+    border-top:solid 4px #1374b6;
+    border-bottom:solid 1px #ccc;
+    background:#fff;
+
+    transition:all .2s ease-in-out;
+}
+
+#tpl_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin-top:20px;
+    padding: 10px;
+
+    text-align:center;
+
+    background:#fff;
+    box-shadow: inset 0 2px 4px 0 #ccc;
+}
+
+/*-- Loading Panel --*/
+.loading-panel {
+    z-index:5000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.2);
+}
+
+.loading-panel > i.circle-loading {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -60px;
+    border: 16px solid #fff;
+    border-radius: 50%;
+    border-top: 16px solid #1374b6;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.loading-panel > i.zth-icon-bg2 {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -60px;
+    background-repeat: no-repeat;
+    background-image: url(../img/zth-icon-bg2.png);
+    background-size: cover;
+    background-position: center;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.loading-panel > i.zth-icon-hat2 {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/zth-icon-hat2.png);
+    background-size: cover;
+    background-position: center;
+    -webkit-animation: bounce 0.8s infinite;
+    animation: bounce 0.8s infinite;
+}
+
+
+/*-- Screen : XS & SM --*/
+@media screen and (max-width: 767px) {
+    /*--- Layout 2 Columns --*/
+    [data-layout="2col"] { position:relative;overflow:hidden; }
+    [data-layout-2col="one"] { position:relative;left:0;transition: all .2s ease-in-out; }
+    [data-layout-2col="one"].deactive { position:fixed;left:-100%;transition: none; }
+    [data-layout-2col="two"] { position:fixed;right:-100%;transition: all .2s ease-in-out; }
+    [data-layout-2col="two"].active { position:relative;right:0; }
+}
+
+
+/*--- Spin animation --*/
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/*--- Bounce animation --*/
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+/* Blink class and keyframe animation */
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+/* Flash class and keyframe animation */
+.flash {
+    -webkit-animation: flash-animation linear 1s infinite;
+    animation: flash-animation linear 1s infinite;
+}
+.flash-loading-bar {
+    display: block !important;
+    height: 8px !important;
+    background: #dedede !important;
+    -webkit-animation: flash-animation linear 1s infinite;
+    animation: flash-animation linear 1s infinite;
+}
+
+@-webkit-keyframes flash-animation {
+    0% { opacity: 1; } 
+    50% { opacity: .1; } 
+    100% { opacity: 1; }
+}
+@keyframes flash-animation {
+    0% { opacity: 1; } 
+    50% { opacity: .1; } 
+    100% { opacity: 1; }
+}

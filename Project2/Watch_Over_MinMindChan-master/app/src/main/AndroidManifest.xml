@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mean.chan.mind.sendgps">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ.GSERVICES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Watch Over"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".PlateMapsActivity"
+            android:label="@string/title_activity_plate_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HistoryListView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailHistory"
+            android:label="@string/title_activity_detail_history"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreateAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyServiceActivity"
+            android:label="Map" />
+        <activity
+            android:name=".NumberActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SwipeContactActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AddNumberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchPlaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InfoChildActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AddChildActivity" />
+        <activity android:name=".InfoPlaceActivity" />
+        <activity android:name=".InfoMapsActivity" />
+        <activity android:name=".InfoContactActivity" />
+        <activity android:name=".ProfileChildActivity" />
+
+    </application>
+
+
+</manifest>

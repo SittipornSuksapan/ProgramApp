@@ -1,0 +1,109 @@
+
+body { padding-top:85px;padding-bottom:240px; }
+
+/*-- Templates --*/
+#tpl_navbar { transition: all .2s ease-in-out;border-top:solid 4px #3b5998;border-bottom:solid 1px #ccc;background:#fff; }
+
+#tpl_navbar_menu_hide { display:none; }
+
+#tpl_navbar_logo img { transition: all .2s ease-in-out;max-height:64px; }
+#tpl_navbar_menu .hidden-sm-down { margin-top:10px; }
+#tpl_navbar_menu .hidden-sm-down .btn-link { font-size:1.6em;text-decoration:none; }
+
+#tpl_navbar.sticky-active { border-top:solid 4px #3b5998;border-bottom:solid 1px #ccc;background:#fff; }
+#tpl_navbar.sticky-active #tpl_navbar_logo img { max-height: 48px; }
+
+#tpl_navbar.sticky-active #tpl_navbar_menu .hidden-sm-down { margin-top:3px; }
+#tpl_navbar.sticky-active #tpl_navbar_menu .hidden-sm-down .btn-link { font-size:1.2em;text-decoration:none; }
+
+#tpl_navbar .btn-link-icon > i.fa { font-size:1.8em;color:#3b5998;text-shadow:none; }
+
+#tpl_navbar_search_input { padding-bottom:7px;padding-right:36px;font-size:1.2em; }
+
+/*-- Reviews --*/
+.grid-rv-item { padding:5px; }
+
+/*-- Home Slide show --*/
+.slick-prev:before, .slick-next:before { color:#3b5998 !important; }
+
+.home-main-icons { margin-top:30px;margin-bottom:30px; }
+a.home-main-icon { text-decoration:none !important;text-align:center !important; }
+a.home-main-icon > img { width:64px;height:auto; }
+a.home-main-icon > h3 { height:24px;font-size:1em;margin:0;transition: all 0.2s ease-out; }
+a.home-main-icon:hover > h3 { font-size:1.2em; }
+a.home-main-icon:hover > img{ animation: bounce 0.8s; }
+
+
+/*-- Store show --*/
+.store-show-imghead { position:relative;margin-left:-15px;margin-right:-15px;padding:0;height:360px;background-repeat: no-repeat;background-size: cover;background-position: center; }
+
+/*-- Store Tab Handler --*/
+#store_tab_handler { display:none;z-index:1000;position:fixed;bottom:0;left:0;right:0;margin:0;padding:0;width:100%;border-top:solid 1px #999; }
+#store_tab_handler > .navbar { padding:0px; }
+#store_tab_handler > .navbar > .btn-group > .btn { padding:12px 8px;border-radius:0; }
+
+.store-order-menu-photo { margin-bottom:10px;box-shadow:0px 1px 3px #333;height:90px;background-repeat:no-repeat;background-size:cover;background-position:center; }
+
+/*-- Screen : XS & SM --*/
+@media screen and (max-width: 767px) {
+    body { padding-top:71px;padding-bottom:20px; }
+    body.show-menu { overflow:hidden; }
+
+    #tpl_navbar_left,
+    #tpl_navbar_logo,
+    #tpl_navbar_right { text-align:center; }
+
+    #tpl_navbar_logo img { max-height:48px; }
+
+    #tpl_navbar_menu {
+        z-index: 10000;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        width: 90%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        border-right: solid 1px #aaa;
+        background-color: #e5e5e5;
+        transition: all .2s ease-in-out;
+    }
+    #tpl_navbar_menu.show-menu { left: 0; }
+    #tpl_navbar_menu_hide { z-index: 10002;position:absolute;top:0;right:0; }
+    #tpl_navbar_menu_hide.show-menu { display:block; }
+
+    
+    
+    
+    
+    
+    #store_tab_handler { display:block; }
+
+    /*-- Store order --*/
+    #store_order_menu { position:relative;overflow:hidden; }
+
+    .store-order-menu-photo { height:90px; }
+    #store_order_modal_img { max-height: 180px; }
+
+    /*-- Store show --*/
+    #store_show { position:relative;overflow:hidden; }
+
+    .store-show-imghead { height:200px;border-radius: 0px 0px 6px 6px; }
+
+    /*-- Reviews --*/
+    .grid-rv-item { width:100%; }
+
+    /*-- Home Slide show --*/
+    .home-main-icons { padding-left:0px;padding-right:0px; }
+    .home-main-icons > .col-xs-3 { padding-left:5px;padding-right:5px; }
+    a.home-main-icon > img { width:100%;height:auto; }
+    a.home-main-icon > h3 { font-size:0.8em; }
+    a.home-main-icon:hover > h3 { font-size:0.9em; }
+
+    /*-- Templates --*/
+    #rst_nav_search_form { position:absolute;z-index:-1;top:-200px;transition: all .2s ease-in-out;padding-bottom:5px; }
+    #rst_nav_search_form.active { position:relative;z-index:1;top:10px; }
+
+}
+

@@ -1,0 +1,103 @@
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "Traer todo al frente";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "Ventana";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"23.title" = "Minimizar";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "Ventana";
+
+/* Class = "NSMenuItem"; title = "AppCleaner"; ObjectID = "56"; */
+"56.title" = "AppCleaner";
+
+/* Class = "NSMenu"; title = "AppCleaner"; ObjectID = "57"; */
+"57.title" = "AppCleaner";
+
+/* Class = "NSMenuItem"; title = "About AppCleaner"; ObjectID = "58"; */
+"58.title" = "Acerca de AppCleaner";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "72"; */
+"72.title" = "Abrir…";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "73"; */
+"73.title" = "Cerrar";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "Archivo";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "Archivo";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "129"; */
+"129.title" = "Preferencias…";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "Servicios";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "Servicios";
+
+/* Class = "NSMenuItem"; title = "Hide AppCleaner"; ObjectID = "134"; */
+"134.title" = "Ocultar AppCleaner";
+
+/* Class = "NSMenuItem"; title = "Quit AppCleaner"; ObjectID = "136"; */
+"136.title" = "Salir de AppCleaner";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "Ocultar otros";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "Mostrar todo";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "197"; */
+"197.title" = "Copiar";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "198"; */
+"198.title" = "Seleccionar todo";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "199"; */
+"199.title" = "Cortar";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "203"; */
+"203.title" = "Pegar";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "205"; */
+"205.title" = "Edición";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "207"; */
+"207.title" = "Deshacer";
+
+/* Class = "NSMenuItem"; title = "Find…"; ObjectID = "209"; */
+"209.title" = "Buscar…";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "217"; */
+"217.title" = "Edición";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "239"; */
+"239.title" = "Zoom";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "490"; */
+"490.title" = "Ayuda";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "491"; */
+"491.title" = "Ayuda";
+
+/* Class = "NSMenuItem"; title = "AppCleaner Help"; ObjectID = "492"; */
+"492.title" = "Ayuda de AppCleaner";
+
+/* Class = "NSMenuItem"; title = "Deselect All"; ObjectID = "0DK-T6-zHi"; */
+"0DK-T6-zHi.title" = "Deseleccionar todos";
+
+/* Class = "NSMenuItem"; title = "Visit AppCleaner Website"; ObjectID = "Dkc-Vs-udd"; */
+"Dkc-Vs-udd.title" = "Visita la página web de AppCleaner";
+
+/* Class = "NSMenuItem"; title = "Check for Updates…"; ObjectID = "mfL-55-bwL"; */
+"mfL-55-bwL.title" = "Buscar actualizaciones…";
+
+/* Class = "NSMenuItem"; title = "Contact Support"; ObjectID = "qxF-hp-fr0"; */
+"qxF-hp-fr0.title" = "Contactar con el soporte";
+

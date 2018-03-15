@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/buttom_nav_item_home"
+        icon="@drawable/ic_home"
+        barColorWhenSelected="#FFFFFF"
+        title="Home" />
+    <tab
+        id="@+id/buttom_nav_item_child"
+        icon="@drawable/ic_face"
+        barColorWhenSelected="#FFFFFF"
+        title="Children" />
+    <tab
+        id="@+id/buttom_nav_item_place"
+        icon="@drawable/ic_add_location"
+        barColorWhenSelected="#FFFFFF"
+        title="Place" />
+    <tab
+        id="@+id/buttom_nav_item_contact"
+        icon="@drawable/ic_account"
+        barColorWhenSelected="#FFFFFF"
+        title="Contact" />
+    <tab
+        id="@+id/buttom_nav_item_history"
+        icon="@drawable/ic_more_horiz_black_24dp"
+        barColorWhenSelected="#FFFFFF"
+        title="More" />
+
+</tabs>

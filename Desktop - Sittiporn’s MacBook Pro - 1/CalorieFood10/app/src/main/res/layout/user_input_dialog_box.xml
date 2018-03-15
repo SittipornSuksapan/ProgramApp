@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="จำนวนที่ทาน"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/userInputDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="จำนวน"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioMale1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เช้า"
+            android:typeface="serif"
+            />
+
+        <RadioButton
+            android:id="@+id/radioMale2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เที่ยง"
+            android:typeface="monospace"
+            android:layout_marginLeft="10dp"/>
+        <RadioButton
+            android:id="@+id/radioMale3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เย็น"
+            android:typeface="monospace"
+            android:layout_marginLeft="10dp"/>
+    </RadioGroup>
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:contentPadding="16dp"
+        android:layout_marginTop="10sp"
+        card_view:cardElevation="2dp"
+        card_view:cardCornerRadius="5dp"
+        >
+        <LinearLayout
+            android:id="@+id/layout_faar"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#ffffff">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:text="  " />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="รายการโปรด" />
+
+            <ImageView
+                android:id="@+id/ImageView_fullhart_icon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

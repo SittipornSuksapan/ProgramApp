@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Food Calorie  </string>
+
+    <string name="searchHint">ค้นหาเมนูอาหาร</string>
+    <string name="searchHintEx">ค้นหารายการออกกำลังกาย</string>
+    <string name="listFoodAndEx">รายการอาหารและออกกำลังกาย</string>
+    <string name="data_Weight">ข้อมูลควบคุมน้ำหนัก</string>
+    <string name="weightControl">กรุณากรอกข้อมูลส่วนตัว</string>
+    <string name="userInformation">ข้อมูลผู้ใช้</string>
+    <string name="name">ชื่อผู้ใช้</string>
+    <string name="height">ส่วนสูง(ซม.)</string>
+    <string name="weight">น้ำหนัก(กก.)</string>
+    <string name="age">อายุ</string>
+    <string name="male">ชาย</string>
+    <string name="female">หญิง</string>
+    <string name="save">บันทึก</string>
+    <string name="list">รายการ</string>
+    <string name="saveW">บันทึกน้ำหนักวันนี้</string>
+
+    <string name="edite">แก้ไข</string>
+    <string name="k_cel">Kcal</string>
+    <string name="power_Left">พลังงานตอนนี้</string>
+    <string name="power">พลังงานต่อวัน</string>
+    <string name="food">อาหารเช้า</string>
+    <string name="food1">อาหารเที่ยง</string>
+    <string name="food2">อาหารเย็น</string>
+    <string name="worm">ออกกำลังกาย</string>
+    <string name="date">วันที่</string>
+    <string name="total_Calories">แคลอรี่รวม</string>
+    <string name="weight1">น้ำหนัก</string>
+    <string name="weight_Today">บันทึกน้ำหนักวันนี้</string>
+    <string name="weight_normal">น้ำหนักอยู่ในเกณฑ์ปกติ</string>
+
+    <string name="edit_Profile">แก้ไขข้อมูลผู้ใช้</string>
+    <string name="bmr">BMR</string>
+    <string name="bmi">BMI</string>
+
+    <string name="searchFood">ค้นหาเมนูอาหาร</string>
+    <string name="searchEx">ค้นหารายการออกกำลังกาย</string>
+
+    <string name="level_prompt">ระดับการออกกำลังกาย</string>
+    <string-array name="level_Ex">
+        <item>โปรดเลือก</item>
+        <item>ระดับการออกกำลังกาย</item>
+        <item>ไม่ออกกำลังกาย</item>
+        <item>ออกกำลังกายอาทิตย์ละ 1-3 วัน</item>
+        <item>ออกกำลังกายอาทิตย์ละ 3-5 วัน</item>
+        <item>ออกกำลังกายอาทิตย์ละ 6-7 วัน</item>
+        <item>ออกกำลังกายทุกวันเช้า-เย็น</item>
+    </string-array>
+    <string name="your_api_key">AIzaSyBRtB9KV7nzenc0DnL32yphHSCQkMwULrI</string>
+    <string name="speak">Speak Now</string>
+
+    <string-array name="Spinner_Content">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+    <string name="menu_settings">Settings</string>
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+    <string name="default_progressbar">Default Progressbar:</string>
+    <string name="spinner_title">คำนำหน้า</string>
+    <string name="spinner_titles">เพศ</string>
+    <string name="spinner_title2">สถานภาพ</string>
+
+
+    <string name="bmrs">Basal Metabolic Rate (BMR) คือ จำนวนแคลอรี่ขั้นต่ำที่ต้องการใช้ในชีวิตแต่ละวัน ซึ่งจะช่วยเป็นเกณฑ์ควบคุม/เพิ่ม/ลดน้ำหนัก </string>
+    <string name="bmis">(Body Mass Index : BMI) คือเป็นมาตรการที่ใช้ประเมินภาวะอ้วนและผอมในผู้ใหญ่ ตั้งแต่อายุ 20 ปีขึ้นไป สามารถทำได้โดยการชั่งน้ำหนักตัวเป็นกิโลกรัม และวัดส่วนสูงเป็นเซนติเมตร แล้วนำมาหาดัชมีมวลกาย</string>
+
+    <string name="mrs">คือ ค่าแคลอรี่ที่วัดจากสัดส่วนของผู้ใช้ ว่าอยู่ในเกณฑ์ไหน เพื่อที่จะได้คุมน้ำหนักได้อย่างถูกต้องปลอดภัย คนที่อยู่ในเกณฑ์ น้ำหนักเกินจนถึงอ้วน จะทำการลบ 300 จากค่า (BMR) คนที่อยู่ในเกณฑ์ปกติ ให้ทานตามค่าแคลอรี่ปกติ และถ้าหากน้ำหนักน้อยกว่าเกณฑ์ ให้ทำการบวก 300 จากค่า (BMR) ที่คำนวณ
+</string>
+
+
+</resources>
